@@ -50,7 +50,7 @@ if page == '🏠 Home':
               
                   🎯 **Current Focus:** Pursuing My Associate's Degree in Business
               
-                  📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
+                  📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211), ENGL 150, SOC 101, BUS 103
               
                   🌱 **Fun Fact:** I Can Repair electronics, such as Computers and Laptops!
               ''')
@@ -81,7 +81,7 @@ elif page == '👔 About':
             ''')
 
   st.subheader('Interests & Hobbies 🌳')
-  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+  interests = ['Architecture', 'Gaming', 'Exercising', 'Sports Cars', 'Traveling', 'Relaxing']
 
   # Display the interests in columns
   cols = st.columns(3)
