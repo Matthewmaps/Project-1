@@ -55,8 +55,54 @@ if page == '🏠 Home':
               
                   🌱 **Fun Fact:** I Can Repair electronics, such as Computers and Laptops!
               ''')
+      
   with col2: 
     # Placeholder for image
     st.image('https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/grumpy_cat.jfif', use_column_width=True)
+
+# About Page
+elif page == '👔 About':
+  st.title('About Me')
+
+  # Timeline of my Professional Journey
+  st.subheader('My Journey 🗺️')
+
+  with st.expander('2025 - Present: Medgar Evers College'):
+    st.write('''
+                - Major: Business Administration 
+                - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+                - Activities: None
+            ''')
+
+  with st.expander('2022 - 2024: Pathways 2 Gradutation'):
+    st.write('''
+                - Graduated with A GED
+                - GED Math Score 157
+                - Earned 2 awards 
+            ''')
+
+  st.subheader('Interests & Hobbies 🌳')
+  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+
+  # Display the interests in columns
+  cols = st.columns(3)
+  for i, interest in enumerate(interests):
+    with cols[i % 3]:
+      st.info(f'🔷 {interest}')
+elif page == '💼 Projects':
+  st.title('My Projects')
+  st.write('Here are some projects I have worked on:')
+
+  # Project 1
+  with st.container():
+    col1, col2 = st.columns([1, 2])
+  
+    with col1:
+        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
+
+    with col2:
+        st.subheader('🛒 E-Commerce Price Tracker')
+        st.write('Python web scraper that monitors Amazon prices and sends alerts')
+        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
 
