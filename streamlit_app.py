@@ -4,8 +4,8 @@ from datetime import datetime
 
 # Page Config
 st.set_page_config(
-    page_title="Your Name - Portfolio",
-    page_icon=":book:",
+    page_title='Matthew Green | Portfolio',
+    page_icon='🟢',
     layout="wide"
 )
 
