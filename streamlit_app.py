@@ -35,7 +35,7 @@ if page == '🏠 Home':
   with col2: 
     st.metric('Projects', '5', '💻')
   with col3:
-    st.metric('skills', '10+', '🚀')
+    st.metric('skills', '4+', '🚀')
 
 
   st.write('---')
@@ -45,14 +45,15 @@ if page == '🏠 Home':
   with col1:
        st.subheader('Welcome to my digital space!👋')
        st.write('''
-                  I am a Computer Information Systems student passionate about web development and emerging technologies. Currently learning
-                  HTML, CSS, JavaScript, and Python to build innovative solutions.
+                  Hello, my name is Matthew Green, and I am a Business Administration student who is currently 
+                  studying for an Associate's in Business Administration. Currently learning
+                  English 150, Business 103, Sociology 101, and Math 136 to earn credits. 
               
-                  🎯 **Current Focus:** Pursing My Business Administration Degree
+                  🎯 **Current Focus:** Pursuing My Associate's Degree in Business
               
                   📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
               
-                  🌱 **Fun Fact:** I Can Repair electronics, such as Computers and Laptops
+                  🌱 **Fun Fact:** I Can Repair electronics, such as Computers and Laptops!
               ''')
   with col2: 
     # Placeholder for image
