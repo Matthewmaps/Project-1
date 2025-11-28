@@ -20,7 +20,7 @@ st.markdown('''
 # Sidebar
 st.sidebar.title('📍Navigation')
 page = st.sidebar.radio('Go to',
-                        ['🏠 Home', '👔 About', '💼 projects', '⚒️ Skills', '📝 Resume', '📩 Contact' ])
+                        ['🏠 Home', '👔 About', '💼 Projects', '⚒️ Skills', '📝 Resume', '📩 Contact' ])
 
 # Home Page
 if page == '🏠 Home':
@@ -44,11 +44,11 @@ if page == '🏠 Home':
   with col1:
        st.subheader('Welcome to my digital space!👋')
        st.write('''
-                  Hello, my name is Matthew Green, and I am a Business Administration student who is currently 
-                  studying for an Associate's in Business Administration. Currently learning
-                  English 150, Business 103, Sociology 101, and Math 136 to earn credits. 
+                  Hello, my name is Matthew Green. I am a Business Administration student who is currently 
+                  studying for an Associate's in Business Administration. I am currently learning
+                  English 150, Business 103, Sociology 101, and Math 136 for this semester. 
               
-                  🎯 **Current Focus:** Pursuing My Associate's Degree in Business
+                  🎯 **Current Focus:** Pursuing My Associate's Degree in Business Administration
               
                   📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211), ENGL 150, SOC 101, BUS 103
               
