@@ -57,7 +57,7 @@ if page == '🏠 Home':
       
   with col2: 
     # Placeholder for image
-    st.image('raw.githubusercontent.com/Matthewmaps/Project-1/refs/heads/main/new-york-city-one-world-trade-center-5.JFIF', use_column_width=True)
+    st.image('https://raw.githubusercontent.com/Matthewmaps/Project-1/refs/heads/main/new-york-city-one-world-trade-center-5.JFIF', use_column_width=True)
 
 # About Page
 elif page == '👔 About':
