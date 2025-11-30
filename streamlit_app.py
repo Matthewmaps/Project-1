@@ -118,14 +118,14 @@ elif page == '🛠 Skills':
   st.title('Technical Skills')
 
   # Skills with progress bars
-  st.subheader("Programming Languages")
+  st.subheader('Programming Languages')
 
-skills_data = {
-    'Python': 85,
-    'HTML/CSS': 70,
-    'JavaScript': 60,
-    'SQL': 50,
-    'Technical Writing': 40
+ skills_data = {
+    'Python' : 85,
+    'HTML/CSS' : 70,
+    'JavaScript' : 60,
+    'SQL' : 50,
+    'Technical Writing' : 40
   }
 
   for skill, level in skills_data.items():
