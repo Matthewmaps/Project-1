@@ -138,6 +138,7 @@ elif page == '🛠 Skills':
   st.subheader('Tools & Technologies')
 
   col1, col2, col3 = st.columns(3)
+    
   with col1:
     st.success('Excel')
     st.info('Word')
