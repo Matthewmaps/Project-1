@@ -182,7 +182,7 @@ elif page == '📩 Contact':
 
         👩‍💻 **Github:** [https://github.com/Matthewmaps](https://github.com)
 
-        📷 **Instagram:** [@nolimits.mp4](https://instagram.com)
+        📷 **Phone Number:** [917-507-4542]
 
     ''')
 
