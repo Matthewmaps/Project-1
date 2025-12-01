@@ -194,8 +194,8 @@ elif page == '📩 Contact':
         [
             '🏫 Learning',
             '📕 Studying',
-            '☕ On a coffee break',
             '🎮 Gaming',
+            '💪 Working out',
             '😴 Sleeping'
         ]
     )
