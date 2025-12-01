@@ -186,7 +186,7 @@ elif page == '📩 Contact':
 
     ''')
 
-    # Fun interative element
+    # Fun interactive element
     st.subheader('Current Status')
 
     status = st.selectbox(
@@ -206,7 +206,7 @@ elif page == '📩 Contact':
     # Footer
     st.write('---')
     st.markdown(
-        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Matthew Green </center>',
         unsafe_allow_html = True
     )
 
