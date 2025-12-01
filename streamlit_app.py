@@ -176,13 +176,13 @@ elif page == '📩 Contact':
     st.subheader('Send me a message.')
 
     st.write('''
-        📧 **Email:** yourname@email.com
+        📧 **Email:** matthewmaps@gmail.com
 
         🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
 
         👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
 
-        📷 **Instagram:** [@yourhandle](https://instagram.com)
+        📷 **Instagram:** [@nolimits.mp4](https://instagram.com)
 
     ''')
 
