@@ -127,6 +127,7 @@ elif page == '🛠 Skills':
     'SQL' : 50,
     'Technical Writing' : 40
   }
+    
   for skill, level in skills_data.items():
     col1, col2 = st.columns([1,3])
     with col1:
