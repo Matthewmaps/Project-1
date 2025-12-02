@@ -179,7 +179,7 @@ elif page == '📩 Contact':
     st.write('''
         📧 **Email:** matthewmaps@gmail.com
 
-        🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+        🏢 **LinkedIn:** [linkedin.com/in/MatthewGreen](https://linkedin.com)
 
         👩‍💻 **Github:** [https://github.com/Matthewmaps](https://github.com)
 
